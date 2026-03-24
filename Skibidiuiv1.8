@@ -1564,7 +1564,7 @@ function Library:CreateWindow(Setting)
 				ToggleList.Padding = UDim.new(0, 5)
 				
 				local function ChangeStage(val)
-					local csize = val and UDim2.new(0.5, 0, 0.5, 0) or UDim2.new(0, 0, 0, 0)
+					local csize = val and UDim2.new(0.4, 0, 0.4, 0) or UDim2.new(0, 0, 0, 0)
 					local pos = val and UDim2.new(0.5, 0, 0.5, 0) or UDim2.new(0.5, 0, 0.5, 0)
 					local apos = val and Vector2.new(0.5, 0.5) or Vector2.new(0.5, 0.5)
 					game.TweenService:Create(check, TweenInfo.new(getgenv().UIColor["Tween Animation 1 Speed"]), {
